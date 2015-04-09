@@ -1,0 +1,18 @@
+Package: RnBeads.hg19
+Title: RnBeads.hg19
+Description: Annotation tables and mappings for hg19 used by RnBeads
+Authors@R: c( person("Yassen", "Assenov", email =
+        "yassen@mpi-inf.mpg.de", role = c("aut")), person("Pavlo",
+        "Lutsik", email = "p.lutsik@mx.uni-saarland.de", role =
+        c("aut")), person("Fabian", "Mueller", email =
+        "fmueller@mpi-inf.mpg.de", role = c("aut", "cre")))
+Date: 2013-01-27
+Version: 0.99.2
+Depends: R (>= 2.15), GenomicRanges
+Suggests: RnBeads (>= 0.99.0), BSgenome.Hsapiens.UCSC.hg19,
+License: GPL-3
+biocViews: Homo_sapiens
+NeedsCompilation: no
+Author: Yassen Assenov [aut], Pavlo Lutsik [aut], Fabian Mueller [aut,
+        cre]
+Maintainer: Fabian Mueller <fmueller@mpi-inf.mpg.de>

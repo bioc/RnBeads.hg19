@@ -1,0 +1,30 @@
+## D A T A S E T S #####################################################################################################
+
+#' HG19 - Annotation tables
+#'
+#' Scaffold of annotation tables for HG19. This structure is automatically loaded upon initialization of the annotation,
+#' that is, by the first valid call to any of the following functions: \code{\link{rnb.get.assemblies}},
+#' \code{\link{rnb.get.chromosomes}}, \code{\link{rnb.get.annotation}}, \code{\link{rnb.set.annotation}},
+#' \code{\link{rnb.get.mapping}}, \code{\link{rnb.annotation.size}}. Adding an annotation amounts to attaching its
+#' table(s) and mapping structures to this scaffold.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name hg19
+#' @format \code{list} of four elements - \code{"regions"}, \code{"sites"}, \code{"controls"} and \code{"mappings"}.
+#'         These elements are described below.
+#'         \describe{
+#'           \item{\code{"regions"}}{\code{list} of \code{NULL}s; the names of the elements correspond to the built-in
+#'                region annotation tables. Once the default annotations are loaded, the attribute \code{"builtin"} is
+#'                a \code{logical} vector storing, for each region annotation, whether it is the default (built-in) or
+#'                custom.}
+#'           \item{\code{"sites"}}{\code{list} of \code{NULL}s; the names of the elements correspond to the site and
+#'                probe annotation tables.}
+#'           \item{\code{"controls"}}{\code{list} of \code{NULL}s; the names of the elements correspond to the control
+#'                probe annotation tables. The attribute \code{"sites"} is a \code{character} vector pointing to the
+#'                site annotation that encompasses the respective control probes.}
+#'           \item{\code{"mappings"}}{\code{list} of \code{NULL}s; the names of the elements correspond to the built-in
+#'                region annotation tables.}
+#'         }
+#' @author Yassen Assenov
+NULL
