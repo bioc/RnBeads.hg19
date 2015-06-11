@@ -7,7 +7,7 @@ Authors@R: c( person("Yassen", "Assenov", email =
         c("aut")), person("Fabian", "Mueller", email =
         "fmueller@mpi-inf.mpg.de", role = c("aut", "cre")))
 Date: 2013-01-27
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 2.15), GenomicRanges
 Suggests: RnBeads (>= 0.99.0), BSgenome.Hsapiens.UCSC.hg19,
 License: GPL-3
