@@ -3,10 +3,10 @@ Title: RnBeads.hg19
 Description: Automatically generated RnBeads annotation package for the assembly hg19.
 Author: RnBeadsAnnotationCreator
 Maintainer: RnBeadsAnnotationCreator <rnbeads@mpi-inf.mpg.de>
-Date: 2015-06-12
+Date: 2015-12-04
 License: GPL-3
 Version: 1.3.0
 Depends: R (>= 3.0.0), GenomicRanges
 Suggests: RnBeads
 NeedsCompilation: no
-Packaged: 2015-06-12 11:37:05 UTC; fmueller
+Packaged: 2016-01-14 14:16:04 UTC; assenov
