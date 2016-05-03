@@ -5,7 +5,7 @@ Author: RnBeadsAnnotationCreator
 Maintainer: RnBeadsAnnotationCreator <rnbeads@mpi-inf.mpg.de>
 Date: 2015-12-04
 License: GPL-3
-Version: 1.3.1
+Version: 1.4.0
 Depends: R (>= 3.0.0), GenomicRanges
 Suggests: RnBeads
 NeedsCompilation: no
