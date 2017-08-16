@@ -1,0 +1,7 @@
+CpG: sites
+hg19
+probes27: sites
+probes450: sites
+probesEPIC: sites
+regions
+small.example.object: rnb.set.example
