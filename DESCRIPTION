@@ -10,3 +10,4 @@ Depends: R (>= 3.0.0), GenomicRanges
 Suggests: RnBeads
 NeedsCompilation: no
 Packaged: 2016-10-21 09:41:39 UTC; assenov
+RoxygenNote: 6.0.1
